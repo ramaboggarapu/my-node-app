@@ -1,7 +1,7 @@
 ---
 applications:
  - name: my-node-app
-   hosts:
+   host:
       - rama-node-app
    domain: mybluemix.net
    memory: 1G
