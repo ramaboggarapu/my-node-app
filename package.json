@@ -1,0 +1,26 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramaboggarapu/my-node-app.git"
+  },
+  "author": "",
+  "dependencies": {
+    "cfenv": "^1.0.3",
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "body-parser": "^1.15.2"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramaboggarapu/my-node-app/issues"
+  },
+  "homepage": "https://github.com/ramaboggarapu/my-node-app#readme"
+}
