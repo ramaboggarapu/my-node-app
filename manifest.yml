@@ -7,5 +7,5 @@ applications:
    disk_quota: 512
    instances: 2
    env:
-     ENV_VAR_1: 'env_var_1_value'
-     ENV_VAR_1: 2
+     STRING_VAR: 'env_var_1_value'
+     NUM_VAR: 2
