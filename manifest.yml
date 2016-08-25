@@ -4,7 +4,7 @@ applications:
    host: rama-node-app
    domain: stage1.mybluemix.net
    memory: 128M
-   disk_quota: 512
+   disk_quota: 512M
    instances: 2
    env:
      STRING_VAR: 'env_var_1_value'
