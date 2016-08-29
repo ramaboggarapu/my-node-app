@@ -1,8 +1,6 @@
 ---
 applications:
  - name: my-node-app
-   host: rama-node-app
-   domain: stage1.mybluemix.net
    memory: 128M
    disk_quota: 512M
    instances: 2
