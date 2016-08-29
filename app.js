@@ -26,14 +26,8 @@ app.use(express.static(__dirname + '/public'));
 // get the app environment from Cloud Foundry
 var appEnv = cfenv.getAppEnv();
 
-app.post('/messages/*', function (req, res) {
-  fs.appendFile(__dirname + '/public/botlog.txt', JSON.stringify(req.body), function(err) {
-      if(err) {
-          return console.log(err);
-      }
-      console.log("The file was saved!");
-  });
-
+app.get('/', function (req, res) {
+  res.send('Hello Rama!');
 });
 
 // start server on the specified port and binding host
